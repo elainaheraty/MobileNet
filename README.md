@@ -1,2 +1,3 @@
 # MobileNet
-deep learning cnn ; uses depth-wise separable convolutions for classification
+deep learning cnn using keras
+
