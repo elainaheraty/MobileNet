@@ -1,3 +1,2 @@
 # MobileNet
-deep learning cnn using keras
-
+Deep learning CNN using tensorflow and keras for image classification
