@@ -21,5 +21,9 @@ def prepare_image(file):
     img = image.load_img(img_path + file, target_size=(224, 224)) #keras function: image.load accepts image file + target size; 224 is standard 
     img_array = image.img_to_array(img) #keras function to convert image to array
     img_array_expanded_dims = np.expand_dims(img_array, axis=0) 
+    #img_array_expanded_dims results in a numpy array
     return keras.application.mobilenet.preprocess_input(img_array_expanded_dims) #preprocesses given image data to the same format of the image data mobilenet was originally trained on; scales pixel values of image [-1,1]
-    #returns a numpy array
+
+   
+    
+    
