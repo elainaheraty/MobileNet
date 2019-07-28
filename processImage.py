@@ -1,5 +1,5 @@
 from IPython.display import Image
-Image(filename='MobileNet-images/1.PNG', width=300, height=200)
+Image(filename='Users/elainaheraty/pictures/1.PNG', width=300, height=200)
 
 preprocessed_image = prepare_image('1.PNG')
 predictions = mobile.predict(preprocessed_image)
