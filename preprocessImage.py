@@ -17,7 +17,7 @@ mobile = keras.applications.mobilenet.MobileNet()
 
 #function takes in an image file and preprocesses it to a file that the model accepts
 def prepare_image(file):    
-    img_path = 'MobileNet-images/' #path to images
+    img_path = '/Users/elainaheraty/pictures/1.PNG' #path to images
     img = image.load_img(img_path + file, target_size=(224, 224)) #keras function: image.load accepts image file + target size; 224 is standard 
     img_array = image.img_to_array(img) #keras function to convert image to array
     img_array_expanded_dims = np.expand_dims(img_array, axis=0) 
