@@ -7,3 +7,5 @@ predictions = mobile.predict(preprocessed_image)
 #imagenet utility function which returns top 5 imagenet class predictions + class ID, class label and probability
 results = imagenet_utils.decode_preidctions(predictions)
 results
+
+#test on jupyter notebooks
