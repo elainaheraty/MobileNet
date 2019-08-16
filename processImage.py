@@ -9,3 +9,4 @@ results = imagenet_utils.decode_preidctions(predictions)
 results
 #
 #test on jupyter notebooks
+#next create mobilenet that works without pretrained bot
